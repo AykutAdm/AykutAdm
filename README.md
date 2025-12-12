@@ -16,14 +16,6 @@
 - I’m currently learning .NET CORE and design patterns.
 
 
-## 📊 GitHub Stats & Trophies
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AykutAdm&show_icons=true&theme=highcontrast&hide_border=true&count_private=true&cache_seconds=86400" alt="AykutAdm's GitHub Stats" width="49%" />
-
-</p>
-
-
-
 ## 🛠️ Languages & Tools
 
 > ## Programming Languages
