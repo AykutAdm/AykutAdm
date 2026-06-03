@@ -169,18 +169,9 @@ Currently focused on backend development, clean architecture, and enterprise-lev
 
 <div align="center">
 
-<br/><br/>
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=AykutAdm&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7" />
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AykutAdm&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFF7" />
-
-<br/><br/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=AykutAdm&theme=tokyonight-duo&hide_border=true&background=0D1117&fire=00FFF7&ring=00FFF7&currStreakLabel=00FFF7&sideLabels=ffffff&dates=aaaaaa" alt="GitHub Streak" />
 
 <br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=AykutAdm&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" />
 
 </div>
 
