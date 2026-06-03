@@ -49,15 +49,13 @@
 
 <br/>
 
-Hey! I'm **Aykut**, a passionate Junior .NET & Full Stack Developer based in **Ankara, Türkiye** 🇹🇷
+Hey! I'm **Aykut**, Junior .NET Developer passionate about building scalable backend systems and modern web applications.
 
-I graduated from **Turkish Aeronautical Association University** with a Computer Engineering degree (GPA: 3.0/4.0) and I've been obsessed with building things on the web ever since.
-
-I've shipped **10+ real-world projects** — from car rental platforms and AI-powered insurance systems to multi-account email dashboards — using **ASP.NET Core**, **C#**, **React**, and a bunch of AI tools like **OpenAI**, **Claude AI**, and **Google Gemini**.
+I enjoy turning ideas into real products and continuously improving my software engineering skills through hands-on projects and learning.
 
 Right now I'm grinding through a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi, going deep into **Onion Architecture**, **CQRS**, **Microservices**, and enterprise-level design patterns.
 
-Previously interned at **Nanodems Software Company** in Ankara, shipping production-grade backend services and UIs.
+Currently focused on backend development, clean architecture, and enterprise-level application design.
 
 <br/>
 
@@ -135,10 +133,14 @@ Previously interned at **Nanodems Software Company** in Ankara, shipping product
 **🏢 Nanodems Software Company** — `Full Stack Development Intern`
 📅 Aug 2024 – Aug 2024 &nbsp;|&nbsp; 📍 Ankara, Türkiye
 
-> ✦ Built RESTful backend services with **ASP.NET Core**, **C#**, and **SQL Server**
-> ✦ Designed responsive UIs with **HTML**, **CSS**, and **Bootstrap**
-> ✦ Implemented **N-Tier Architecture** for clean separation of concerns
-> ✦ Used **Git & GitHub** for version control and team collaboration
+<br>
+> ✦ Built RESTful backend services with **ASP.NET Core**, **C#**, and **SQL Server** 
+<br>
+> ✦ Designed responsive UIs with **HTML**, **CSS**, and **Bootstrap** 
+<br>
+> ✦ Implemented **N-Tier Architecture** for clean separation of concerns 
+<br>
+> ✦ Used **Git & GitHub** for version control and team collaboration 
 
 <br/>
 
