@@ -121,7 +121,7 @@ My whole approach fits in one sentence: ship something, learn from it, come back
 <tr>
 <td width="50%" align="center">
 <a href="https://github.com/AykutAdm/Rythm">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=Rythm&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
+<img src="https://github.com/AykutAdm/Rythm/blob/master/docs/home.gif?raw=true"/>
 </a>
 <br/><sub>🎧 <b>Music streaming platform</b> — playlists & ML.NET-powered personalized recommendations<br/>ASP.NET Core 8 · Angular 19 · Clean Architecture · CQRS · Redis · Elasticsearch · Docker</sub>
 </td>
@@ -135,7 +135,7 @@ My whole approach fits in one sentence: ship something, learn from it, come back
 <tr>
 <td colspan="2" align="center">
 <a href="https://github.com/AykutAdm/Mail-Management">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=Mail-Management&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
+<img src="https://github.com/AykutAdm/Mail-Management/blob/main/Images/1.jpg?raw=true"/>
 </a>
 <br/><sub>📬 <b>AI-powered email platform</b> (graduation project) — Gmail & Outlook unified, automated AI replies & translation<br/>Python (Sanic) · React (TypeScript) · MySQL · OAuth2 · JWT · OpenAI API</sub>
 </td>
@@ -176,21 +176,6 @@ My whole approach fits in one sentence: ship something, learn from it, come back
 
 <!-- ═══════════════════ GITHUB STATS ═══════════════════ -->
 ## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=AykutAdm&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="100%"/>
-
-<br/><br/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=AykutAdm&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&ring_color=00FFF7&include_all_commits=true&count_private=true"/>
-<img height="180" src="https://streak-stats.demolab.com?user=AykutAdm&hide_border=true&background=0D1117&ring=00FFF7&fire=FFD700&currStreakLabel=00FFF7&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=8B949E"/>
-
-<br/><br/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AykutAdm&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FFF7&text_color=C9D1D9&langs_count=8&hide=html,css,scss"/>
-
-</div>
 
 <br/>
 
