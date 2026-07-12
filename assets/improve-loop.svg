@@ -1,0 +1,70 @@
+<svg viewBox="0 0 420 320" width="420" height="320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ring" x1="105" y1="45" x2="315" y2="275" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFF7"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="orbit" d="M 210 55 A 105 105 0 1 1 209.9 55 Z"/>
+  </defs>
+  <style>
+    .lbl { font-family: 'Cascadia Code','Consolas','JetBrains Mono',monospace; font-size: 12px; letter-spacing: 2.5px; fill: #C9D1D9; }
+    .big { font-family: 'Cascadia Code','Consolas','JetBrains Mono',monospace; font-size: 46px; font-weight: 700; fill: #00FFF7; }
+    .sub { font-family: 'Cascadia Code','Consolas','JetBrains Mono',monospace; font-size: 10px; letter-spacing: 3px; fill: #8B949E; }
+    .breathe { animation: br 4s ease-in-out infinite; }
+    @keyframes br { 0%,100% { opacity: .75; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .breathe { animation: none; opacity: 1; } }
+  </style>
+
+  <!-- outer rotating dashed ring -->
+  <g>
+    <circle cx="210" cy="160" r="105" stroke="url(#ring)" stroke-width="1.6" stroke-dasharray="3 9" opacity=".85">
+      <animateTransform attributeName="transform" type="rotate" from="0 210 160" to="360 210 160" dur="26s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- inner counter-rotating ring -->
+  <g>
+    <circle cx="210" cy="160" r="84" stroke="#7C3AED" stroke-width="1" stroke-dasharray="2 12" opacity=".35">
+      <animateTransform attributeName="transform" type="rotate" from="360 210 160" to="0 210 160" dur="40s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- orbiting comet + trail -->
+  <circle r="5" fill="#00FFF7" filter="url(#glow2)">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#orbit"/>
+    </animateMotion>
+  </circle>
+  <circle r="3.2" fill="#00FFF7" opacity=".55">
+    <animateMotion dur="7s" begin="-0.18s" repeatCount="indefinite">
+      <mpath href="#orbit"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.2" fill="#7C3AED" opacity=".4">
+    <animateMotion dur="7s" begin="-0.36s" repeatCount="indefinite">
+      <mpath href="#orbit"/>
+    </animateMotion>
+  </circle>
+
+  <!-- cardinal nodes -->
+  <circle cx="210" cy="55"  r="4" fill="#0D1117" stroke="#00FFF7" stroke-width="1.5"/>
+  <circle cx="315" cy="160" r="4" fill="#0D1117" stroke="#00FFF7" stroke-width="1.5"/>
+  <circle cx="210" cy="265" r="4" fill="#0D1117" stroke="#7C3AED" stroke-width="1.5"/>
+  <circle cx="105" cy="160" r="4" fill="#0D1117" stroke="#7C3AED" stroke-width="1.5"/>
+
+  <!-- labels -->
+  <text x="210" y="36"  text-anchor="middle" class="lbl">CODE</text>
+  <text x="332" y="164" text-anchor="start"  class="lbl">SHIP</text>
+  <text x="210" y="292" text-anchor="middle" class="lbl">LEARN</text>
+  <text x="88"  y="164" text-anchor="end"    class="lbl">IMPROVE</text>
+
+  <!-- center -->
+  <g class="breathe">
+    <text x="210" y="168" text-anchor="middle" class="big" filter="url(#glow2)">+1%</text>
+  </g>
+  <text x="210" y="196" text-anchor="middle" class="sub">EVERY SINGLE DAY</text>
+</svg>
