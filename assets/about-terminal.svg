@@ -1,0 +1,69 @@
+<svg viewBox="0 0 760 432" width="760" height="432" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bd" x1="0" y1="0" x2="760" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFF7"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .t { font-family: 'Cascadia Code','Consolas','Fira Code','JetBrains Mono',monospace; font-size: 14px; }
+    .ln { opacity: 0; animation: typein .5s ease-out forwards; }
+    @keyframes typein { from { opacity: 0; transform: translateX(-14px); } to { opacity: 1; transform: translateX(0); } }
+    .d1{animation-delay:.2s}.d2{animation-delay:.55s}.d3{animation-delay:.9s}.d4{animation-delay:1.25s}
+    .d5{animation-delay:1.6s}.d6{animation-delay:1.95s}.d7{animation-delay:2.3s}.d8{animation-delay:2.65s}
+    .d9{animation-delay:3s}.d10{animation-delay:3.35s}.d11{animation-delay:3.7s}.d12{animation-delay:4.05s}
+    .cur { opacity: 0; animation: blink 1.1s steps(1) infinite 4.8s; }
+    @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    .pulse { animation: pl 3.6s ease-in-out infinite; }
+    @keyframes pl { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ln { animation: none; opacity: 1; }
+      .cur { animation: none; opacity: 1; }
+      .pulse { animation: none; opacity: .8; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="2" y="2" width="756" height="428" rx="14" fill="#0D1117"/>
+  <rect class="pulse" x="2" y="2" width="756" height="428" rx="14" stroke="url(#bd)" stroke-width="1.6"/>
+
+  <!-- window bar -->
+  <path d="M3 16 C3 8.8 8.8 3 16 3 H744 C751.2 3 757 8.8 757 16 V42 H3 Z" fill="#161B22"/>
+  <circle cx="26" cy="22" r="6" fill="#FF5F56"/>
+  <circle cx="46" cy="22" r="6" fill="#FFBD2E"/>
+  <circle cx="66" cy="22" r="6" fill="#27C93F"/>
+  <text x="380" y="27" text-anchor="middle" class="t" fill="#8B949E">aykut@dev: ~/AboutMe.cs</text>
+  <line x1="3" y1="42" x2="757" y2="42" stroke="#21262D"/>
+
+  <!-- code -->
+  <text x="28" y="74" class="t ln d1" xml:space="preserve"><tspan fill="#8B949E">// AboutMe.cs — builds with 0 warnings</tspan></text>
+
+  <text x="28" y="99" class="t ln d2" xml:space="preserve"><tspan fill="#FF7B72">public sealed class</tspan><tspan fill="#FFA657"> AykutAdem</tspan><tspan fill="#E6EDF3"> : </tspan><tspan fill="#79C0FF">IDeveloper</tspan></text>
+
+  <text x="28" y="124" class="t ln d3" xml:space="preserve"><tspan fill="#E6EDF3">{</tspan></text>
+
+  <text x="28" y="149" class="t ln d4" xml:space="preserve"><tspan fill="#FF7B72">    public string</tspan><tspan fill="#7EE787"> Title</tspan><tspan fill="#E6EDF3">    =&gt; </tspan><tspan fill="#A5D6FF">"Junior .NET / Full Stack Developer"</tspan><tspan fill="#E6EDF3">;</tspan></text>
+
+  <text x="28" y="174" class="t ln d5" xml:space="preserve"><tspan fill="#FF7B72">    public string</tspan><tspan fill="#7EE787"> Location</tspan><tspan fill="#E6EDF3"> =&gt; </tspan><tspan fill="#A5D6FF">"Ankara, Türkiye"</tspan><tspan fill="#E6EDF3">;</tspan></text>
+
+  <text x="28" y="207" class="t ln d6" xml:space="preserve"><tspan fill="#FF7B72">    public string</tspan><tspan fill="#E6EDF3">[]</tspan><tspan fill="#7EE787"> CoreStack</tspan><tspan fill="#E6EDF3"> =&gt;</tspan></text>
+
+  <text x="28" y="232" class="t ln d7" xml:space="preserve"><tspan fill="#FF7B72">        new</tspan><tspan fill="#E6EDF3">[] { </tspan><tspan fill="#A5D6FF">"ASP.NET Core"</tspan><tspan fill="#E6EDF3">, </tspan><tspan fill="#A5D6FF">"C#"</tspan><tspan fill="#E6EDF3">, </tspan><tspan fill="#A5D6FF">"EF Core"</tspan><tspan fill="#E6EDF3">, </tspan><tspan fill="#A5D6FF">"Angular"</tspan><tspan fill="#E6EDF3">, </tspan><tspan fill="#A5D6FF">"SQL Server"</tspan><tspan fill="#E6EDF3"> };</tspan></text>
+
+  <text x="28" y="265" class="t ln d8" xml:space="preserve"><tspan fill="#FF7B72">    public string</tspan><tspan fill="#E6EDF3">[]</tspan><tspan fill="#7EE787"> Learning</tspan><tspan fill="#E6EDF3"> =&gt;</tspan></text>
+
+  <text x="28" y="290" class="t ln d9" xml:space="preserve"><tspan fill="#FF7B72">        new</tspan><tspan fill="#E6EDF3">[] { </tspan><tspan fill="#A5D6FF">"Onion Architecture"</tspan><tspan fill="#E6EDF3">, </tspan><tspan fill="#A5D6FF">"CQRS (MediatR)"</tspan><tspan fill="#E6EDF3">, </tspan><tspan fill="#A5D6FF">"Microservices"</tspan><tspan fill="#E6EDF3"> };</tspan></text>
+
+  <text x="28" y="323" class="t ln d10" xml:space="preserve"><tspan fill="#FF7B72">    public string</tspan><tspan fill="#7EE787"> Motto</tspan><tspan fill="#E6EDF3"> =&gt;</tspan></text>
+
+  <text x="28" y="348" class="t ln d11" xml:space="preserve"><tspan fill="#E6EDF3">        </tspan><tspan fill="#A5D6FF">"Trying to be better than yesterday."</tspan><tspan fill="#E6EDF3">;</tspan></text>
+
+  <text x="28" y="373" class="t ln d12" xml:space="preserve"><tspan fill="#E6EDF3">}</tspan></text>
+
+  <!-- blinking cursor -->
+  <rect class="cur" x="44" y="361" width="8" height="16" fill="#00FFF7" filter="url(#glow)"/>
+</svg>
