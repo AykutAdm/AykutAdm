@@ -1,5 +1,5 @@
 <!-- ═══════════════════ HEADER ═══════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,30:164E63,60:00FFF7,100:7C3AED&text=AYKUT%20ADEM&fontSize=62&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=PLAYER%201%20%E2%80%94%20Junior%20.NET%20%2F%20Full%20Stack%20Developer&descSize=18&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,30:164E63,60:00FFF7,100:7C3AED&text=AYKUT%20ADEM&fontSize=62&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=Junior%20.NET%20%2F%20Full%20Stack%20Developer&descSize=18&descAlignY=58"/>
 
 <!-- ANIMATED TYPING -->
 <div align="center">
@@ -25,59 +25,44 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <!-- ═══════════════════ ABOUT ═══════════════════ -->
-## 🕹️ PLAYER PROFILE — About Me
+## 👨‍💻 About Me
 
-<table>
-<tr>
-<td width="55%" valign="top">
+<div align="center">
 
-```csharp
-public sealed class AykutAdem : IDeveloper
-{
-    public string   Title    => "Junior .NET / Full Stack Developer";
-    public string   Location => "Ankara, Türkiye 🇹🇷";
+<img src="assets/about-terminal.svg" width="100%" alt="AboutMe.cs — animated terminal"/>
 
-    public string[] CoreStack => new[]
-    {
-        "ASP.NET Core", "C#", "EF Core",
-        "Angular", "React", "SQL Server"
-    };
-
-    public string[] CurrentlyGrinding => new[]
-    {
-        "Onion Architecture", "CQRS (MediatR)",
-        "Microservices", "Enterprise Patterns"
-    };
-
-    public string Motto =>
-        "Trying to be better than yesterday.";
-
-    public async Task<Level> LevelUpAsync() =>
-        await Grind(coffee: int.MaxValue, excuses: 0);
-}
-```
-
-</td>
-<td width="45%" valign="middle">
-
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%" />
+</div>
 
 <br/>
 
-I enjoy turning ideas into real products — building scalable backends and modern, polished web apps.
+<table>
+<tr>
+<td width="55%" valign="middle">
+
+<br/>
+
+I enjoy turning ideas into real products — building scalable backends and modern, polished web apps with **ASP.NET Core** and **Angular**.
 
 Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Onion Architecture**, **CQRS**, **Microservices** and enterprise-level design patterns.
+
+My whole approach fits in one sentence: ship something, learn from it, come back **1% better** — every single day.
+
+<br/>
+
+</td>
+<td width="45%" align="center" valign="middle">
+
+<img src="assets/improve-loop.svg" width="100%" alt="Code, ship, learn, improve — +1% every single day"/>
 
 </td>
 </tr>
 </table>
 
-<!-- QUICK STATS — Pac-Man ghost palette 👻 -->
+<!-- QUICK STATS -->
 <div align="center">
 
 <img src="https://img.shields.io/badge/Experience-1%2B%20Years-FFD700?style=for-the-badge&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/Projects-25%2B%20Repos-00FFF7?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/AI%20Integrations-5%2B%20Models-FF6EC7?style=for-the-badge&labelColor=0D1117"/>
 <img src="https://img.shields.io/badge/Location-Ankara%2C%20TR-FFB852?style=for-the-badge&labelColor=0D1117"/>
 
 </div>
@@ -86,7 +71,7 @@ Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Oni
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <!-- ═══════════════════ TECH STACK ═══════════════════ -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> ⚔️ LOADOUT — Tech Stack
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> &nbsp; Tech Stack
 
 <div align="center">
 
@@ -130,7 +115,7 @@ Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Oni
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
-## 🎮 SELECT LEVEL — Featured Projects
+## 🚀 Featured Projects
 
 <div align="center">
 
@@ -140,46 +125,26 @@ Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Oni
 <a href="https://github.com/AykutAdm/Rythm">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=Rythm&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
 </a>
-<br/><sub>🎧 Spotify-style music streaming — ASP.NET Core 8 · Clean Architecture · Elasticsearch · ML.NET · Angular 19</sub>
+<br/><sub>🎧 <b>Music streaming platform</b> — playlists & ML.NET-powered personalized recommendations<br/>ASP.NET Core 8 · Angular 19 · Clean Architecture · CQRS · Redis · Elasticsearch · Docker</sub>
 </td>
-<td width="50%" align="center">
-<a href="https://github.com/AykutAdm/Curio.io">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=Curio.io&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
-</a>
-<br/><sub>❓ Q&A social platform — .NET Core · MongoDB · Modular Monolith · Vertical Slice Architecture · JWT</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<a href="https://github.com/AykutAdm/TasteUp-SignalR">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=TasteUp-SignalR&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
-</a>
-<br/><sub>🍽️ Real-time restaurant system with QR ordering — ASP.NET Core 6 · SignalR</sub>
-</td>
-<td width="50%" align="center">
-<a href="https://github.com/AykutAdm/TicketBox">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=TicketBox&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
-</a>
-<br/><sub>🎫 Ticketing application — C# · ASP.NET Core</sub>
-</td>
-</tr>
-<tr>
 <td width="50%" align="center">
 <a href="https://github.com/AykutAdm/Venar">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=Venar&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
 </a>
-<br/><sub>🏗️ Construction company website — .NET Core · Clean Architecture · CQRS/MediatR</sub>
+<br/><sub>🏗️ <b>Corporate web application</b> — content managed from admin panel with zero code changes<br/>ASP.NET Core 8 · Clean Architecture · CQRS · EF Core · SQL Server · JWT · IMemoryCache</sub>
 </td>
-<td width="50%" align="center">
-<a href="https://github.com/AykutAdm/.NETCore_AI-Projects-Collection">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=.NETCore_AI-Projects-Collection&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<a href="https://github.com/AykutAdm/Mail-Management">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=AykutAdm&repo=Mail-Management&bg_color=0D1117&title_color=00FFF7&icon_color=00FFF7&text_color=C9D1D9&hide_border=true"/>
 </a>
-<br/><sub>🤖 AI integration playground — OpenAI · Claude · Gemini · ML.NET on .NET Core</sub>
+<br/><sub>📬 <b>AI-powered email platform</b> (graduation project) — Gmail & Outlook unified, automated AI replies & translation<br/>Python (Sanic) · React (TypeScript) · MySQL · OAuth2 · JWT · OpenAI API</sub>
 </td>
 </tr>
 </table>
 
-<sub>➕ More levels at <a href="https://github.com/AykutAdm?tab=repositories">github.com/AykutAdm</a> — 25+ repos and counting</sub>
+<sub>➕ More projects at <a href="https://github.com/AykutAdm?tab=repositories">github.com/AykutAdm</a> — 25+ repos and counting</sub>
 
 </div>
 
@@ -187,29 +152,32 @@ Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Oni
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <!-- ═══════════════════ EXPERIENCE & EDUCATION ═══════════════════ -->
-## 💼 XP LOG — Experience & Education
+## 💼 Experience & Education
 
 **🏢 Nanodems Software Company** — `Full Stack Development Intern`
 📅 Aug 2024 &nbsp;|&nbsp; 📍 Ankara, Türkiye
 
-> ✦ Built RESTful backend services with **ASP.NET Core**, **C#**, and **SQL Server**
-> <br/>✦ Designed responsive UIs with **HTML**, **CSS**, and **Bootstrap**
-> <br/>✦ Implemented **N-Tier Architecture** for clean separation of concerns
-> <br/>✦ Used **Git & GitHub** for version control and team collaboration
+> ✦ Built RESTful APIs with **ASP.NET Core**, **C#**, and **SQL Server** for an account management system
+> <br/>✦ Applied **N-Tier Architecture** for scalability and clean separation of concerns
+> <br/>✦ Developed responsive UI with **HTML**, **CSS**, **Bootstrap**, and **JavaScript**
+> <br/>✦ Managed version control and team collaboration with **Git & GitHub**
 
 <br/>
 
-**🏫 Turkish Aeronautical Association University** — `Computer Engineering`
+**🏫 Turkish Aeronautical Association University** — `B.Sc. Computer Engineering`
 📅 2020 – 2025 &nbsp;|&nbsp; 📍 Ankara, Türkiye &nbsp;|&nbsp; ⭐ GPA: **3.0 / 4.0**
 
 **📚 M&Y Yazılım Akademi** — `Full Stack .NET Developer Bootcamp`
 📅 Jan 2026 – Ongoing &nbsp;|&nbsp; 👨‍🏫 Instructor: **Murat Yücedağ**
 
+**📜 AI & Machine Learning Certificate** — `Veri Analizi Okulu`
+📅 2025 – 2026 &nbsp;|&nbsp; 🤝 In collaboration with YÖK, ODTÜ, İTÜ & Boğaziçi University
+
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <!-- ═══════════════════ GITHUB STATS ═══════════════════ -->
-## 🏆 HIGH SCORES — GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -236,12 +204,11 @@ Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Oni
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <!-- ═══════════════════ PAC-MAN ═══════════════════ -->
-## 👾 BONUS LEVEL — Pac-Man Contribution Graph
+## 👾 Pac-Man Contribution Graph
 
 <!--
   ⚠️ SETUP REQUIRED: Add .github/workflows/pacman.yml to THIS repo (AykutAdm/AykutAdm),
   run the workflow once from the Actions tab, and the URLs below will start working.
-  Until then, this section will show a broken image.
 -->
 
 <div align="center">
@@ -260,13 +227,9 @@ Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Oni
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <!-- ═══════════════════ CONNECT ═══════════════════ -->
-## 🔗 MULTIPLAYER — Let's Connect
+## 🔗 Let's Connect
 
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&pause=1000&color=FFD700&center=true&vCenter=true&repeat=true&width=520&height=45&lines=INSERT+COIN+TO+CONNECT;PRESS+START+%3E%3E%3E" alt="Insert coin"/>
-
-<br/>
 
 <a href="https://www.linkedin.com/in/aykut-adem-13819a267">
 <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -282,13 +245,9 @@ Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Oni
 
 <br/><br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1600&color=FFD700&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Trying+to+be+better+than+yesterday.;Kaizen%3A+1%25+better%2C+every+single+day.;Consistency+compounds." alt="Motto"/>
 
 <br/>
-
-### 💪 *"Trying to be better than yesterday."*
-
-**⭐ If you find my work interesting, feel free to star a repo! ⭐**
 
 </div>
 
