@@ -43,8 +43,6 @@
 
 I enjoy turning ideas into real products — building scalable backends and modern, polished web apps with **ASP.NET Core** and **Angular**.
 
-Currently deep in a **Full Stack .NET Bootcamp** at M&Y Yazılım Akademi: **Onion Architecture**, **CQRS**, **Microservices** and enterprise-level design patterns.
-
 My whole approach fits in one sentence: ship something, learn from it, come back **1% better** — every single day.
 
 <br/>
